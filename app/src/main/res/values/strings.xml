@@ -2,6 +2,6 @@
     <string name="app_name">getScholarship</string>
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_favorite">Favorite</string>
     <string name="title_menu">menu</string>
 </resources>
