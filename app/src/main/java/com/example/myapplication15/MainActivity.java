@@ -1,7 +1,10 @@
 package com.example.myapplication15;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -20,29 +23,15 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    /*@Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int curId = item.getItemId();
-        switch (curId){
-            case R.id.menu_user:
-                Toast.makeText(this, "user 메뉴 선택됨.", Toast.LENGTH_LONG).show();
-                break;
-            case R.id.menu_menu:
-                Intent intent = new Intent(getApplicationContext(),);
-            default:
-                break;
-        }
 
-        return super.onOptionsItemSelected(item);
-    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActionBar abar = getSupportActionBar();
-        abar.setDisplayShowTitleEnabled(false);
+
+
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
